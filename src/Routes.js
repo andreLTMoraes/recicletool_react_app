@@ -3,8 +3,8 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 
-import Login from '../src/pages/Login';
-import Cadastro from '../src/pages/Cadastro';
+import Login from './pages/Login/Login';
+import Cadastro from './pages/Cadastro/Cadastro';
 
 
 const rectoolTheme = {

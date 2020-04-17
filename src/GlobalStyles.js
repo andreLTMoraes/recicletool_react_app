@@ -4,29 +4,13 @@ import Constants from 'expo-constants';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: Constants.statusBarHeight,
+        marginTop: Constants.statusBarHeight - 20,
     },
 
     keyBoardAvoidContainer: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-    },
-
-    scrowViewContainer: {
-        flex: 1,
-        paddingHorizontal: 30,
-    },
-
-    form: {
-        alignSelf: 'stretch',
-        paddingHorizontal: 20,
-        marginTop: 20,
-    },
-
-    sectionFormLabel: {
-        alignSelf: 'center',
-        marginVertical: 5,
     },
 
     primaryLabel: {
